@@ -1,6 +1,8 @@
-let user_points = 70;
+let user_points = 55;
 if (user_points >= 75) {
     console.log("congratulation");
+} else if (user_points <= 50){
+    console.log("You're not trying");
 } else {
-    console.log("so close too bad");
+    console.log("it's a number");
 }
